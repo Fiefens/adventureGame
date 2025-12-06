@@ -1,0 +1,38 @@
+<quest name="Free the Villagers from the Tyran">
+ <stage id="0" name="Training Camp" description ="This is a training camp where you will get to master your skills before you start your quest." startingPointForPlayer ="-25,-1,-134">
+    <requirements>
+      
+    </requirements>
+
+    <results>
+      <result action = "Talk to" target ="Diana" xp = "10"/>
+      <result action = "Acquire a" target ="Apple" xp = "10"/>
+      <result action = "Destroy one" target ="NPC_Guard" xp = "10"/>
+      <result action = "Enter place called" target ="yellow_house" xp = "10"/>
+    </results>
+  </stage>
+	<stage id="1" name="The Maze" description="Navigate the Maze, fight the guards. Find a red and a blue diamond and gold.">
+		<requirements>
+		</requirements>
+
+		<results>
+			<result action="Acquire a" target="Red diamond" xp="10"/>
+			<result action="Acquire a" target="Blue diamond" xp="10"/>
+		</results>
+	</stage>
+	<stage id="2" name="The Boss Fight" description="Collect gold, fight the guards and defeat the boss.">
+		<requirements>
+		</requirements>
+
+		<results>
+			<result action="Acquire a" target="Gold" xp="10"/>
+			<result action="Acquire a" target="Gold" xp="10"/>
+			<result action="Acquire a" target="Gold" xp="10"/>
+			<result action="Acquire a" target="Gold" xp="10"/>
+			<result action="Acquire a" target="Gold" xp="10"/>
+			<result action="Acquire a" target="Gold" xp="10"/>
+			<result action="Destroy one" target="Boss" xp="100"/>
+		</results>
+	</stage>
+
+</quest>
